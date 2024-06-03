@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<title>Boostrap</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Boostrap template</h1>
+		<section class="mt-5">
+			<h2>Typograpghy</h2>
+			<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</small>
+		</section>
+		<section>
+			<!-- quoattion -->
+			<blockquote class="blockquote">
+				<h2>Blockquote</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<footer class="blockquote-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</footer>
+			</blockquote>
+		</section>
+
+		<!-- button -->
+		<section class="mb-5">
+			<h2>button</h2>
+			<button class="btn btn-primary">Primary</button>
+			<button class="btn btn-secondary">Secondary</button><button class="btn btn-success">success</button>
+			<button class="btn btn-success">danger</button><button class="btn btn-danger">waning</button>
+			<button class="btn btn-warning">infor</button><button class="btn btn-info">Info</button>
+		</section>
+
+		<section class="mb-5">
+			<h2>button outline</h2>
+			<button class="btn btn-outline-primary">Primary</button>
+			<button class="btn btn-outline-secondary">Secondary</button><button class="btn btn-outline-secondary">success</button>
+			<button class="btn btn-outline-success">danger</button><button class="btn btn-outline-danger">waning</button>
+			<button class="btn btn-outline-warning">infor</button><button class="btn btn-outline-info">Info</button>
+		</section>
+
+		<section class="mb-5">
+			<h2>button sizes</h2>
+			<button class="btn btn-primary btn-lg">Large</button>
+			<button class="btn btn-primary 
+			btn">dafualt</button>
+			<button class="btn btn-primary btn-sm">Small</button><br><br>
+			<button class="btn btn-primary btn-lg btn-block">block</button>
+		</section>
+
+		<section class="mb-5">
+			<h2>Button group</h2>
+			<div class="btn-group">
+				<button class="btn btn-primary">dfeualt</button>
+				<button class="btn btn-primary">dfeualt</button>
+				<button class="btn btn-primary">dfeualt</button>
+			</div>
+		</section>
+
+		<section class="mb-5">
+			<h2>Button Checkbox</h2>
+			<div class="btn-group btn-group-toggle" data-toggle="button">
+				<label class="btn btn-primary active">
+					<input type="checkbox" name="">Active
+				</label>
+				<label class="btn btn-primary">
+					<input type="checkbox" name="">Check
+				</label>
+				<label class="btn btn-primary">
+					<input type="checkbox" name="">Check
+				</label>
+			</div>
+		</section>
+
+		<section class="mb-5">
+			<h2>Button Radio</h2>
+			<div class="btn-group btn-group-toggle" data-toggle="buttons">
+				<label class="btn btn-primary active">
+					<input type="radio" name="active" autocomplete="off">Active
+				</label>
+				<label class="btn btn-primary">
+					<input type="radio" name="" autocomplete="">Check
+				</label>
+				<label class="btn btn-primary">
+					<input type="radio" name="">Check
+				</label>
+			</div>
+		</section>
+
+		<section class="mb-5">
+			<h2>Table</h2>
+			<table class="table table-striped table-bordered table-hover">
+				<thead class="thead-dark">
+					<tr>
+						<th>fname/th>
+						<th>lname</th>
+						<th>Age</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>gerome</td>
+						<td>dimaraan</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<td>gerome</td>
+						<td>dimaraan</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<td>gerome</td>
+						<td>dimaraan</td>
+						<td>50</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<section>
+				<h2>Forms</h2>
+				<div class="form-group">
+					<label>Email Address</label>
+					<input type="email" name="email" class="form-control" placeholder="Enter email">
+					<small class="form-text text-muted">enter valid email</small>
+				</div>
+
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" name="password" class="form-control" placeholder="Password">
+				</div>
+
+				<div class="form-group">
+					<label>Select</label>
+					<select class="form-control">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Text area</label>
+					<textarea class="form-control" cols="30" rows="5" placeholder="text area"></textarea>
+				</div>
+
+				<div class="form-group">
+					<label>Disable input</label>
+					<input type="text" class="form-control" disabled>
+				</div>
+
+				<div class="form-group">
+					<label>Read only input</label>
+					<input type="text" class="form-control" readonly>
+				</div>
+
+				<div class="form-group">
+					<label>Valid input</label>
+					<input type="text" class="form-control is-valid">
+					<div class="valid-feedback">Success</div>
+				</div>
+
+				<div class="form-group">
+					<label>Invalid input</label>
+					<input type="text" class="form-control is-invalid">
+					<div class="invalid-feedback">Error</div>
+				</div>
+
+				<div class="form-group">
+					<label>Large input</label>
+					<input type="text" class="form-control form-control-lg" placeholder="large textbox">
+					<label>small input</label>
+					<input type="text" class="form-control form-control-sm" placeholder="small textbox">
+				</div>
+
+				<fieldset>
+					<legend></legend>
+				</fieldset>
+			</section>
+		</section>
+	</div>
+
+<!-- Boostrap JS link -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

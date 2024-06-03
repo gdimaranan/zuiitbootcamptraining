@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Mobile Responsive Meta Tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- <link rel="stylesheet" type="text/css" href="./index.css"> -->
+
+	<title>css AND BOOSTRAP FLEX</title>
+
+	
+</head>
+<body>
+	<div class="container-fluid text-center">
+		<h2>Centering Elements</h2>
+	<!-- parent element -->
+	<!-- justifiy content d ay horizontal center ng child element 
+	align items ay vertical center ng child element
+
+	-->
+	<div style="height: 500px;" class="bg-secondary p-3 d-flex justify-content-center align-items-center flex-column-reverse ">
+		<!-- child element -->
+		<div class="h-25 p-3 bg-success">Flex Item A</div>
+		<div class="h-25 p-3 bg-warning">Flex Item b</div>
+		<div class="h-25 p-3 bg-danger">Flex Item c</div>
+	</div>
+
+	<h2>flex row</h2>
+	<div class="bg-dark p-3 d-flex flex-row">
+		<div class="p-3 bg-success">flex item a</div>
+		<div class="p-3 bg-warning">flex item b</div>
+		<div class="p-3 bg-danger">flex item c
+		</div>
+	</div>
+
+	<h2>flex row reverese</h2>
+	<div class="bg-dark p-3 d-flex flex-row-reverse">
+		<div class="p-3 bg-success">flex item a</div>
+		<div class="p-3 bg-warning">flex item b</div>
+		<div class="p-3 bg-danger">flex item c
+		</div>
+	</div>
+	<!-- naglalagay ng space side by side -->
+	<h2>create space betewwen element</h2>
+	<div class="bg-dark p-3 d-md-flex justify-content-around">
+		<div class="p-3 bg-success col-md-2">card a</div>
+		<div class="p-3 bg-warning col-md-2">card b</div>
+		<div class="p-3 bg-danger col-md-2">card c
+		</div>
+	</div>
+
+	<h2>flexbox with margin
+	</h2>
+	<div class="bg-dark p-3 d-flex">
+		<div class="p-3 bg-success mr-auto">flex item a</div>
+		<div class="p-3 bg-warning">flex item b</div>
+		<div class="p-3 bg-danger">flex item c</div>
+		<div class="p-3 bg-primary">flex item c</div>
+	</div>
+
+	<h2>nested flex elements</h2>
+	<div class="bg-dark p-3 d-block d-md-flex">
+		<div class="p-3 bg-success mr-auto">flex item a</div>
+		<div class="w-50 d-block d-md-flex justify-content-between">
+			<div class="p-3 bg-warning">flex item b</div>
+			<div class="p-3 bg-danger">flex item c</div>
+			<div class="p-3 bg-primary">flex item c</div>
+		</div>
+	</div>
+</div>
+
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

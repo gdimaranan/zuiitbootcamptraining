@@ -1,0 +1,155 @@
+/*
+CSS rules:
+
+selector {
+	property: value;
+}
+
+*/
+
+/*tag/type selector*/
+/*h1 {
+	color: yellow;
+}*/
+
+/*#green {
+	color: green;
+}*/
+
+/*universal selector*/
+/* ; is a delimiter, which is used to express that a specific line of code is done being written */
+
+/*font-family changes the style of the font
+Two values are typically provided here. The first is the primary font and the second is used when the browser cannot load the primary font
+
+font-size changes the size of the text
+
+In the below example, "20px" refers to 20 pixels in size
+*/
+* {
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+}
+
+/*ID Selector*/
+#zuitt-motto {
+	letter-spacing: 5px;
+}
+
+h3 {
+	letter-spacing: 25px;
+}
+
+/*Class Selector*/
+.offering-item {
+	text-transform: uppercase;
+}
+
+/*Attribute selector*/
+
+/*Attribute selector will only target elements with the specified attribute EXACTLY as it is written*/
+
+/*Attribute with no value = all elements with that attribute regardless of value are affected*/
+
+/*Attribute with value = ONLY elements with that attribute and value are affected*/
+input[type="last-name"] {
+	border-width: 9px;
+	border-style: solid;
+	border-color: navy;
+}
+
+/*CSS Selector Combinators*/
+
+/*Adjacent sibling selector*/
+/*selects elements only if the second elements immediately follows the first element and both are children of the same parent element*/
+h3 + img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+/*Descendant selector*/
+/*Only select direct or indirect children of the first element*/
+#bootcamp-learning-list li {
+	color: #075966;
+}
+
+/*General sibling selector*/
+
+/*separates two selectors and matches the second element only if it follows the first element (though not necessarily immediately) and both are children of the same parent*/
+h2 ~ a {
+	text-decoration: none;
+}
+
+/*Child selector*/
+/*separates two selectors and matches only those elements matched by the second selector that are children of elements matched before*/
+section > form > label {
+	color: rgb(0, 126, 128);
+}
+
+/*
+color for fonts only
+background-color for non-text
+*/
+body {
+	background-color: skyblue;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	background-color: white;
+}
+
+div {
+	display: inline-block;
+	float: right;
+}
+
+h1 {
+	color: yellow;
+	text-align: center;
+	font-size: 2rem;
+}
+
+/*pseudo class*/
+/*changes the style when hovered over*/
+a:hover {
+	background-color: #b4d6de;
+}
+
+section {
+	height: 100vh; 
+	/*vh = viewport height = height of screen*/
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+ol {
+	list-style-type: none;
+}
+
+form {
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	/*border property values do not have commas*/
+	height: 185px;
+	width: 25vw;
+	/*viewport width = width of screen*/
+	position: relative;
+	/*position:  changes the position of an element based on the next rule below (in this case, moves it left relative to the percentage of the screen)*/
+	left: 37.25%;
+}
+
+button {
+	background-color: #cf0053;
+	color: white;
+	border: 0;
+	border-radius: 15px;
+}
